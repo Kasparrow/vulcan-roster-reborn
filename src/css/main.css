@@ -1,0 +1,183 @@
+@font-face
+{
+  font-family: "DM Mono";
+  src: url("../fonts/DMMono-Light.ttf");
+  font-weight: 100 400 700;
+}
+
+html, body
+{
+  margin: 0;
+  min-height: 100%;
+  background-color: #2d3436;
+}
+
+body {
+  font-family: "DM Mono";
+  color: #FFFFFF;
+}
+
+nav {
+  position: absolute;
+  display:flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 150px;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.navbar-item {
+  text-transform: uppercase;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  border-top: 1px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.content > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.header {
+  height:100vh;
+  display: block;
+  background: url(../img/header.jpg) no-repeat 0px 0px;
+  background-size: cover;
+}
+
+#roster {
+  margin: auto;
+  flex-wrap: wrap;
+  width: 1400px;
+  justify-content: flex-start;
+}
+
+.character_entry {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2em;
+  width: 33%;
+}
+
+@media (max-width: 1400px) {
+  #roster {
+    width: 970px;
+    justify-content: flex-start;
+  }
+
+  .character_entry {
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 992px) {
+  #roster {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .character_entry {
+    min-width:100%;
+    justify-content: flex-start;
+  }
+}
+
+.avatar > img {
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* warrior */
+.class-1 {
+  color: #C69B6D;
+}
+
+/* paladin */
+.class-2 {
+  color: #F48CBA;
+}
+
+/* hunter */
+.class-3 {
+  color: #AAD372;
+}
+
+/* rogue */
+.class-4 {
+  color: #FFF468;
+}
+
+/* priest */
+.class-5 {
+  color: #CCCCCC;
+}
+
+/* DK  */
+.class-6 {
+  color: #C41E3A;
+}
+
+
+/* shaman */
+.class-7 {
+  color: #0070DD;
+}
+
+/* mage  */
+.class-8 {
+  color: #3FC7EB;
+}
+
+/* warlock  */
+.class-9 {
+  color: #8788EE;
+}
+
+/* monk  */
+.class-10 {
+  color: #00FF98;
+}
+
+/* druid  */
+.class-11 {
+  color: #FF7C0A;
+}
+
+/* DH  */
+.class-12 {
+  color: #A330C9;
+}
+
+/* evoker  */
+.class-13 {
+  color: #33937F;
+}
