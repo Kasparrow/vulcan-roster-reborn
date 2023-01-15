@@ -38,8 +38,8 @@ done < <(tail -n +2 ./config/players.csv | grep -E '^[a-z]')
 cat src/templates/index.html | sed "s~ROSTER~$(cat ./tmp/roster | tr -d '\n')~" > ./tmp/index.html
 cp src/img/header.jpg tmp/img/header.jpg
 
-if [[ -d ./release ]]; then
-        rm -rf ./release
+if [[ -d ./docs ]]; then
+        rm -rf ./docs
 fi
 
-mv tmp release
+mv tmp docs
