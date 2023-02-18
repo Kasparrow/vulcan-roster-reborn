@@ -63,6 +63,11 @@ a {
   background-size: cover;
 }
 
+.guild_logo {
+  width: 300px;
+  margin: auto;
+}
+
 #roster {
   margin: auto;
   flex-wrap: wrap;
@@ -77,6 +82,15 @@ a {
   padding-bottom: 2em;
   width: 33%;
 }
+
+#rules > div {
+  width: 33%;
+}
+
+#rules :nth-child(1) > div {
+  text-align: right;
+}
+
 
 @media (max-width: 1400px) {
   #roster {
@@ -94,11 +108,30 @@ a {
   #roster {
     width: 80%;
     justify-content: center;
+    margin: auto;
   }
 
   .character_entry {
     min-width:100%;
     justify-content: flex-start;
+  }
+
+  #rules {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+
+  #rules > div {
+    width: 80%;
+    margin: auto;
+  }
+
+  #rules {
+    text-align: center;
+  }
+
+  #rules :nth-child(1) > div {
+    text-align: center;
   }
 }
 
@@ -107,6 +140,18 @@ a {
   margin-right: 2em;
 }
 
+#rules {
+  gap: 3em;
+}
+
+.rule {
+  margin-bottom: 3em;
+}
+
+.rule-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -145,7 +190,6 @@ a {
 .class-6 {
   color: #C41E3A;
 }
-
 
 /* shaman */
 .class-7 {

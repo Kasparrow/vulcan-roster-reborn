@@ -5,8 +5,8 @@
   <div class="character-summary">
     <span class="bold">vanii</span>
     <p>
-      <span class="class-6 bold">Chevalier de la mort</span> - <span>tank</span> - <span>397</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="class-6 bold">Chevalier de la mort</span> - <span>tank</span> - <span>405</span></br>
+      <span class="bold">slack score</span> <span>1</span>
     </p>
   </div>
 </div>
@@ -15,10 +15,10 @@
     <img src="./img/kasparrow-confrérie-du-thorium.jpg"/>
   </div>
   <div class="character-summary">
-    <span class="bold">kasparrow</span>
+    <span class="bold">kasparrow le grand malade</span>
     <p>
-      <span class="class-1 bold">Guerrier</span> - <span>tank</span> - <span>386</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="class-1 bold">Guerrier</span> - <span>tank</span> - <span>390</span></br>
+      <span class="bold">slack score</span> <span>1</span>
     </p>
   </div>
 </div>
@@ -30,7 +30,7 @@
     <span class="bold">Inquisiteur maxidoo</span>
     <p>
       <span class="class-8 bold">Mage</span> - <span>dps</span> - <span>232</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="bold">slack score</span> <span>1</span>
     </p>
   </div>
 </div>
@@ -42,7 +42,7 @@
     <span class="bold">Abominable soupeline</span>
     <p>
       <span class="class-9 bold">Démoniste</span> - <span>dps</span> - <span>310</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="bold">slack score</span> <span>8</span>
     </p>
   </div>
 </div>
@@ -54,7 +54,7 @@
     <span class="bold">Maître chasseur grigadc</span>
     <p>
       <span class="class-3 bold">Chasseur</span> - <span>dps</span> - <span>258</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="bold">slack score</span> <span>8</span>
     </p>
   </div>
 </div>
@@ -66,7 +66,7 @@
     <span class="bold">sahyaa</span>
     <p>
       <span class="class-12 bold">Chasseur de démons</span> - <span>dps</span> - <span>286</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="bold">slack score</span> <span>8</span>
     </p>
   </div>
 </div>
@@ -78,7 +78,7 @@
     <span class="bold">Généralissime skýlorg</span>
     <p>
       <span class="class-2 bold">Paladin</span> - <span>heal</span> - <span>380</span></br>
-      <span class="bold">slack score</span> <span>SLACK SCORE</span>
+      <span class="bold">slack score</span> <span>1</span>
     </p>
   </div>
 </div>
